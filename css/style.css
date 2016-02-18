@@ -15,8 +15,15 @@ body {
 .profile-title {
     position: absolute;
     top: 60%;
-    left: 30%;
+    left: 25%;
     color: white;
+}
+.p-t-n {
+    font-size: 22pt;
+}
+.p-t-n1 {
+    font-size: 10pt;
+    font-style: italic
 }
 .sidebar {
     background-color: #5da4d9;
@@ -63,4 +70,35 @@ body {
 .seperator {
     border-bottom: 1px solid #bdbdbd;
     padding-bottom: 5%;
+}
+.progress {
+    height: 2px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    border-radius: 2px;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #4783c2;
+}
+.determinate {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    transition: width .3s linear;
+}
+.determinate .fa {
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    margin-left: 50%;
+}
+.skills {
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+.skill-set {
+    margin-top: 10px;
+    font-size: 15px;
 }
