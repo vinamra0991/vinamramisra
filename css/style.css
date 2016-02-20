@@ -7,14 +7,35 @@ body {
     overflow: hidden;
 }
 .container {
-    margin-top: 2%;
+    margin-top: 1%;
 }
+.floater {
+    position: fixed;
+    right: 0%;
+    top: 40%;
+    
+}
+.linked-in {
+    border-radius: 5px;
+    background-color: #0075b4;
+    padding: 10px;
+}
+.fa-linkedin, .fa-download, .fa-envelope {
+    color: white;
+}
+
+.mail, .download {
+    border-radius: 5px;
+    background-color: #738A8D;
+    padding: 10px;
+}
+
 .profile-container {
     position: relative;
 }
 .profile-title {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 25%;
     color: white;
 }
@@ -101,4 +122,7 @@ body {
 .skill-set {
     margin-top: 10px;
     font-size: 15px;
+}
+.interest {
+    color: #5da4d9;
 }
